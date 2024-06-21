@@ -37,7 +37,7 @@ const HowItWorks = () => {
     animateWithGsap(".g_fadeIn", {
       opacity: 1,
       y: 0,
-      duration: 1,
+      duration: 0.7,
       ease: "power2.inOut",
     });
   }, []);

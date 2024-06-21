@@ -10,7 +10,6 @@ const NavBar = () => {
           alt="apple logo"
           width={15}
           height={15}
-          className="w-auto h-auto"
         />
         <div className="flex flex-1 justify-center max-sm:hidden">
           {navLists.map((nav) => (
@@ -35,7 +34,6 @@ const NavBar = () => {
             alt="bag "
             width={18}
             height={18}
-            className="w-auto h-auto"
           />
         </div>
       </nav>
